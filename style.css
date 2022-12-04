@@ -68,7 +68,9 @@ a, a:hover, a:visited, a:active {
 button {
   background-color: #3882F6;
   color: #F9FAF8;
-  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px 40px;
   width: fit-content;
   border-radius: 10px;
 }
@@ -159,3 +161,39 @@ button {
   margin: 0px 0px 0px auto;
 }
 
+
+
+.prompt-background {
+  background-color: ghostwhite;
+}
+
+.prompt {
+  padding: 50px 100px;
+  background-color: #3882F6;
+  margin: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prompt-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.prompt-text h3 {
+  font-size: 24px;
+  font-style: bold;
+}
+
+.prompt-text h3, .prompt-text p {
+  color: ghostwhite;
+  margin: 0px;
+  padding: 0px;
+}
+
+.prompt button {
+  border-color: ghostwhite;
+  border-width: 3px;
+  align-self: flex-end;
+}
