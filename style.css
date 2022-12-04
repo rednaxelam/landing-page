@@ -127,3 +127,35 @@ button {
   text-align: center;
 }
 
+
+
+
+.quote-background {
+  background-color: #E5E7EB;
+}
+
+.quote {
+  padding: 100px 0px;
+  width: 45vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.quote-content {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0px;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 900;
+  color: black;
+  margin: 0px 0px 0px auto;
+}
+
