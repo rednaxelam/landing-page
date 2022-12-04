@@ -76,7 +76,7 @@ button {
 }
 
 .intro-image-container {
-  flex: 1;
+  flex: 10px;
 }
 
 .intro-image-content {
@@ -165,12 +165,13 @@ button {
 
 .prompt-background {
   background-color: ghostwhite;
+  padding: 100px 0px;
 }
 
 .prompt {
   padding: 50px 100px;
   background-color: #3882F6;
-  margin: 100px 0px;
+  border-radius: 10px;
   display: flex;
   justify-content: space-between;
 }
