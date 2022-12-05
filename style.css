@@ -23,6 +23,7 @@ a, a:hover, a:visited, a:active {
 
 .content {
   width: 75vw;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -138,7 +139,7 @@ button {
 
 .quote {
   padding: 100px 0px;
-  width: 45vw;
+  max-width: 864px;
   margin: auto;
   display: flex;
   flex-direction: column;
