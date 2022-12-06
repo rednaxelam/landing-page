@@ -171,14 +171,16 @@ button {
 }
 
 .prompt {
-  padding: 50px 100px;
+  padding: min(5vh, 77px) min(5vw, 96px);
   background-color: #3882F6;
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .prompt-text {
+  flex: 1 1 330px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -196,11 +198,14 @@ button {
 }
 
 .prompt button {
-  border-color: ghostwhite;
-  border-width: 3px;
   align-self: flex-end;
+  flex-shrink: 0;
 }
 
+.white-border {
+  border-color: ghostwhite;
+  border-width: 3px;
+}
 
 .footer-background {
   padding: 30px 0px;
