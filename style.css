@@ -46,11 +46,14 @@ a, a:hover, a:visited, a:active {
   font-size: 24px;
   color: #F9FAF8;
   font-weight: 900;
+  min-width: 180px;
 }
 
 .header-links {
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: end;
+  column-gap: 30px;
 }
 
 .intro {
