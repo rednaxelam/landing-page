@@ -129,7 +129,6 @@ button {
 }
 
 .media-object img {
-  object-fit: cover;
   width: 100%;
   border: 3px solid #3882F6;
   border-radius: 15px;
