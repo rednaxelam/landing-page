@@ -3,6 +3,9 @@ body {
   font-size: 18px;
   padding: 0;
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 ul {
@@ -19,6 +22,7 @@ a, a:hover, a:visited, a:active {
 .intro-background {
   background-color: #1F2937;
   color: #E5E7EB;
+  flex: 0 0 auto;
 }
 
 .content {
@@ -91,6 +95,7 @@ button {
 
 .info-background {
   background-color: ghostwhite;
+  flex: 0 0 auto;
 }
 
 .info-header {
@@ -136,6 +141,7 @@ button {
 
 .quote-background {
   background-color: #E5E7EB;
+  flex: 0 0 auto;
 }
 
 .quote {
@@ -168,6 +174,7 @@ button {
 .prompt-background {
   background-color: ghostwhite;
   padding: 100px 0px;
+  flex: 1 0 auto;
 }
 
 .prompt {
@@ -210,6 +217,7 @@ button {
 .footer-background {
   padding: 30px 0px;
   background-color: #1F2937;
+  flex: 0 0 auto;
 }
 
 
