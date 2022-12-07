@@ -159,9 +159,6 @@ button {
   margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 30px;
-
 }
 
 .quote-content {
@@ -176,6 +173,7 @@ footer.quote-author {
   font-weight: 900;
   color: black;
   text-align: right;
+  margin: 10px 0px 0px 0px;
 }
 
 cite {
