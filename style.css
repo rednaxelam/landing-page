@@ -1,3 +1,19 @@
+/* This css file has been divided into 7 sections: 
+    (General)
+-General Styles
+-Utilities
+    (Web Page Components)
+-Introduction (this also includes styling for the navigation bar)
+-Information
+-Quote
+-Prompt
+-Footer
+
+Each section has a comment with a "||" and section name above it for easy navigation. */
+
+/* || General Styles */
+
+/* This is a flex container so that the footer can be pushed down to the buttom of the page when zooming out */
 body {
   font-family: Roboto, sans-serif;
   font-size: 18px;
@@ -6,12 +22,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 a, a:visited, a:active {
@@ -24,6 +34,37 @@ a:hover {
   text-decoration: none;
 }
 
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px 40px;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+/* || Utilities */
+
+/* This is used to make sure that the contents of the webpage are contained in the middle 75% of the viewport (unless you zoom out). */
+.content {
+  width: 75vw;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.white-border {
+  border-color: ghostwhite;
+  border-width: 3px;
+}
+
+.no-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* || Introduction */
 
 .intro-background {
   background-color: #1F2937;
@@ -31,11 +72,7 @@ a:hover {
   flex: 0 0 auto;
 }
 
-.content {
-  width: 75vw;
-  max-width: 1440px;
-  margin: 0 auto;
-}
+
 
 .header {
   display: flex;
@@ -45,6 +82,7 @@ a:hover {
   margin-bottom: 100px;
 }
 
+/* min-width is 180px to stop header logo from occupying two lines when zooming in */ 
 .header-logo {
   font-size: 24px;
   color: #F9FAF8;
@@ -60,6 +98,8 @@ a:hover {
   row-gap: 5px;
 }
 
+
+
 .intro {
   display: flex;
   align-items: center;
@@ -68,6 +108,8 @@ a:hover {
   gap: 50px;
 }
 
+/* flex basis is 360px for both the intro-text and intro-image elements so that they wrap nicely (nicely on my 22″ 1920x1080 monitor 
+using a modern version of chrome at least) */
 .intro-text {
   flex: 1 1 360px;
   display: flex;
@@ -81,26 +123,15 @@ a:hover {
   margin: 0;
 }
 
-button {
-  background-color: #3882F6;
-  color: #F9FAF8;
-  font-weight: 700;
-  font-size: 18px;
-  padding: 10px 40px;
-  width: fit-content;
-  border-radius: 10px;
-}
-
 .intro-image {
   flex: 1 1 360px;
-  min-width: 0;
   object-fit: cover;
   height: 300px;
   width: 100%;
 }
 
 
-
+/* || Information */
 
 .info-background {
   background-color: ghostwhite;
@@ -146,7 +177,7 @@ button {
 }
 
 
-
+/* || Quote */
 
 .quote-background {
   background-color: #E5E7EB;
@@ -181,12 +212,16 @@ cite {
 }
 
 
+/* || Prompt */
+
+/* flex-grow is 1 so that the footer is pushed down to the bottom of the page when zooming out */
 .prompt-background {
   background-color: ghostwhite;
   padding: 100px 0px;
   flex: 1 0 auto;
 }
 
+/* there isn't much space for the content of the prompt when zooming in unless you scale the padding based on viewport height and width */
 .prompt {
   padding: min(5vh, 77px) min(5vw, 96px);
   background-color: #3882F6;
@@ -219,17 +254,14 @@ cite {
   flex-shrink: 0;
 }
 
-.white-border {
-  border-color: ghostwhite;
-  border-width: 3px;
-}
+
+/* || Footer */
 
 .footer-background {
   padding: 30px 0px;
   background-color: #1F2937;
   flex: 0 0 auto;
 }
-
 
 footer {
   color: ghostwhite;
