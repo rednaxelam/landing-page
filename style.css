@@ -57,6 +57,7 @@ a:hover {
   flex-wrap: wrap;
   justify-content: end;
   column-gap: 30px;
+  row-gap: 5px;
 }
 
 .intro {
