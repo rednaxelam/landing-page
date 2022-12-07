@@ -5,8 +5,9 @@ The web page works fairly well when using a modern version of google chrome or f
 Try zooming in and zooming out to see what happens!
 
 Photo Credits:
-Shallow Focus of Crow- Freddie Ramm (https://www.pexels.com/@freddie-ramm-6839/)
-Close-up Photo of a Green Ring-neck Parakeet- Jean van der Meulen (https://www.pexels.com/@jvdm/)
-Selective Focus Photography of Green-backed Tit Perching on Branch- Jos van Ouwerkerk (https://www.pexels.com/@jos-van-ouwerkerk-377363/)
-European Robin on Tree Branch- Petr Ganaj (https://www.pexels.com/@ganajp/)
-Brown White Owl- Mark Broadhurst (https://www.pexels.com/@markb/)
+
+* Shallow Focus of Crow- Freddie Ramm (https://www.pexels.com/@freddie-ramm-6839/)
+* Close-up Photo of a Green Ring-neck Parakeet- Jean van der Meulen (https://www.pexels.com/@jvdm/)
+* Selective Focus Photography of Green-backed Tit Perching on Branch- Jos van Ouwerkerk (https://www.pexels.com/@jos-van-ouwerkerk-377363/)
+* European Robin on Tree Branch- Petr Ganaj (https://www.pexels.com/@ganajp/)
+* Brown White Owl- Mark Broadhurst (https://www.pexels.com/@markb/)
